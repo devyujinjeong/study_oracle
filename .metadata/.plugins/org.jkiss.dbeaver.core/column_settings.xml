@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/DBNDatabaseFolder">
+		<column name="이름" visible="true" order="0" width="100"/>
+	</item>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDiagramFolder/DBNResource">
+		<column name="이름" visible="true" order="0" width="111"/>
+		<column name="경로" visible="true" order="1" width="151"/>
+		<column name="크기" visible="true" order="2" width="100"/>
+		<column name="최종 수정" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="이름" visible="true" order="0" width="100"/>
+		<column name="설명" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="드라이버 유형" visible="true" order="3" width="109"/>
+	</item>
+	<item id="NodeList/OracleTable">
+		<column name="Name" visible="true" order="0" width="130"/>
+		<column name="Stat Row Count" visible="true" order="1" width="121"/>
+		<column name="Tablespace" visible="true" order="2" width="100"/>
+		<column name="Comment" visible="true" order="3" width="800"/>
+	</item>
+	<item id="NodeList/OracleTableColumn">
+		<column name="컬럼명" visible="true" order="0" width="117"/>
+		<column name="#" visible="true" order="1" width="100"/>
+		<column name="Type" visible="true" order="2" width="117"/>
+		<column name="Type Mod" visible="true" order="3" width="100"/>
+		<column name="Not Null" visible="true" order="4" width="100"/>
+		<column name="디폴트" visible="true" order="5" width="100"/>
+		<column name="Comment" visible="true" order="6" width="100"/>
+	</item>
+	<item id="NodeList/OracleUser">
+		<column name="User name" visible="true" order="0" width="160"/>
+		<column name="Status" visible="true" order="1" width="100"/>
+		<column name="Create date" visible="true" order="2" width="160"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="130"/>
+		<column name="Time" visible="true" order="1" width="209"/>
+		<column name="Info" visible="true" order="2" width="80"/>
+		<column name="Folder" visible="true" order="3" width="95"/>
+	</item>
+</items>
